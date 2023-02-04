@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+:root {
+    --orange: #E76F51;
+    --baby-orange: #FFC09F;
+    --blue: #79ADDC;
+    --baby-yellow: #FFEE93;
+    --green: #2A9D8F;
+    --baby-green: #ADF7B6;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--baby-green);
+}
+.header-title {
+    font-size: 4rem;
+    color: var(--green);
+    font-weight: 900;
+    padding: 0.5%;
+    padding-left: 10%;
+}
+.header-buttons-container {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    color: var(--green);
+    gap: 6rem;
+    padding-right: 5%;
+    margin-top: 1.5%;
+}
+.header-buttons-container > div:hover {
+    cursor: pointer;
+}
+.footer-container {
+    background-color: var(--baby-yellow);
+    color: var(--blue);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 2.5%;
+}
+.footer-sub-titles-container  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-sub-titles-container > div {
+    padding: 3%;
+}
+.footer-sub-titles-container > div:hover {
+    cursor: pointer;
+}
+.footer-icon-container {
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr ;
+    gap: 25%;
+    font-size: 2.5rem;
+    margin-right: 25%;
+}
