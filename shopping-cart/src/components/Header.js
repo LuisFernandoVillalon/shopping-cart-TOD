@@ -1,5 +1,6 @@
 import React from "react";
-import "../style/style.css"
+import { BagFill } from 'react-bootstrap-icons';
+import "../style/style.css";
 
 const Header = () => {
     return (
@@ -9,7 +10,7 @@ const Header = () => {
                 <div>Home</div>
                 <div>Products</div>
                 <div>About</div>
-                <div>Bag</div>
+                <div><BagFill /></div>
             </div>
         </div>
     )

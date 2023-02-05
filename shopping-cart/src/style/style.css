@@ -12,6 +12,11 @@ body{
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+.body-container {
+    display: grid;
+    grid-template-rows: 0.25fr 1fr 0.5fr;
+    height: 100vh;
+}
 .header-container {
     display: flex;
     align-items: center;
@@ -19,7 +24,7 @@ body{
     background-color: var(--baby-green);
 }
 .header-title {
-    font-size: 4rem;
+    font-size: 4.5rem;
     color: var(--green);
     font-weight: 900;
     padding: 0.5%;
@@ -63,4 +68,59 @@ body{
     gap: 25%;
     font-size: 2.5rem;
     margin-right: 25%;
+}
+.home-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--baby-orange);
+}
+.home-img {
+    width: 50%;
+}
+.left-home-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--orange);
+    -webkit-text-stroke: 0.5px black;
+    font-size: 3.5rem;
+    padding: 2.5%;
+    text-align: center;
+}
+.home-shop-btn {
+    background-color: var(--orange);
+    font-size: 2rem;
+    color: var(--baby-orange);
+    border-width: 0.5rem;
+    border-color: var(--blue);
+    border-radius: 50px;
+    width: 25%;
+    margin: 5%;
+    padding: 2.5%;
+    -webkit-text-stroke: 0px black;
+}
+.home-shop-btn:hover {
+    cursor: pointer;
+    background-color: var(--baby-yellow);
+    color: var(--green);
+    border-color: var(--baby-green);
+}
+.right-home-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--orange);
+    -webkit-text-stroke: 0.5px black;
+    font-size: 3.5rem;
+    padding: 2.5%;
+    text-align: center;
+}
+.right-home-col-subtext {
+    color: var(--green);
+    font-size: 1.5rem;
+}
+.right-home-col > div:nth-child(3) {
+    margin-top: 10%;
 }
