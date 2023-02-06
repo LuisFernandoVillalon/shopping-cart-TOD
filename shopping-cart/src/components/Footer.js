@@ -13,7 +13,7 @@ const Footer = () => {
                     <div>Git Repository</div>
                 </div>
             </div>
-            <div className="footer-sub-titles-container">
+            <div>
                 <h1>Connect With Us</h1>
                 <div className="footer-icon-container">
                     <Facebook />
