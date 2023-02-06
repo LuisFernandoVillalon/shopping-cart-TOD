@@ -14,7 +14,8 @@ body{
 }
 .body-container {
     display: grid;
-    grid-template-rows: 0fr 0fr 0fr;
+    grid-template-rows: 0fr 1fr 0fr;
+    height: 100vh;
 }
 .header-container {
     display: flex;
@@ -145,6 +146,7 @@ body{
     display: grid;
     grid-template-columns: 0.25fr 1fr;
     padding-left: 15%;
+    padding-top: 5%;
 }
 .categories-container {
     display: flex;

@@ -11,7 +11,7 @@ const RouteSwitch = () => {
     <div className="body-container">
         <BrowserRouter>
         <Header />
-          <Routes>
+          <Routes className="route-container">
               <Route path="/" element={<Home />} />
               <Route path="/products" element={<Products />} />
           </Routes>
