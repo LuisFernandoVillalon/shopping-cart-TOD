@@ -1,0 +1,74 @@
+{
+	"0": {
+		"gender": "male",
+		"category": "hat",
+		"item_name": "Sikh",
+		"item_price": "$35.00",
+		"item_description": "Professional black sikh perfect for everyday office use.",
+		"item_image": "https://images.pexels.com/photos/4307849/pexels-photo-4307849.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+	},
+	"1": {
+		"gender": "male",
+		"category": "hat",
+		"item_name": "Cowboy Hat",
+		"item_price": "$35.00",
+		"item_description": "Cause who doesn't need a black cowboy hat?",
+		"item_image": "https://images.pexels.com/photos/13106974/pexels-photo-13106974.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+	},
+	"2": {
+		"gender": "male",
+		"category": "hat",
+		"item_name": "Kufi Cap",
+		"item_price": "$35.00",
+		"item_description": "A traditional brown Kufi Cap for everday use.",
+		"item_image": "https://images.pexels.com/photos/5864961/pexels-photo-5864961.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+	},
+	"3": {
+		"gender": "male",
+		"category": "chain",
+		"item_name": "Thick Gold Chain",
+		"item_price": "$150.00",
+		"item_description": "A thick 24k gold chain perfect for flexing at the club.",
+		"item_image": "https://images.pexels.com/photos/12026054/pexels-photo-12026054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+	},
+	"4": {
+		"gender": "male",
+		"category": "chain",
+		"item_name": "Diamond Chain",
+		"item_price": "$2,575.00",
+		"item_description": "A diamond chain. Do I need to say more?",
+		"item_image": "https://images.pexels.com/photos/12026052/pexels-photo-12026052.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+	},
+	"5": {
+		"gender": "male",
+		"category": "chain",
+		"item_name": "Thin Gold Chain",
+		"item_price": "$95.00",
+		"item_description": "A thin gold chain perfect for everday flexing.",
+		"item_image": "https://images.pexels.com/photos/1812634/pexels-photo-1812634.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+	},
+    "6": {
+        "gender": "male",
+		"category": "watch",
+        "item_name": "Classy Watch",
+        "item_price": "$400.00",
+        "item_description": "A slick classy watch for when your too lazy to cheeck your phone for the time.",
+        "item_image": "https://images.pexels.com/photos/12835312/pexels-photo-12835312.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    "7": {
+        "gender": "male",
+		"category": "watch",
+        "item_name": "Fun Watch",
+        "item_price": "$350.00",
+        "item_description": "A watch with a fun drawing inside it for when you are feeling like a silly goose.",
+        "item_image": "https://images.pexels.com/photos/12835313/pexels-photo-12835313.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    "8": {
+        "gender": "male",
+		"category": "watch",
+        "item_name": "Metal Watch",
+        "item_price": "$500.00",
+        "item_description": "A slick silver metal watch for everday mafia use.",
+        "item_image": "https://images.pexels.com/photos/12835316/pexels-photo-12835316.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+}

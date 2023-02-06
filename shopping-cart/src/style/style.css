@@ -14,8 +14,7 @@ body{
 }
 .body-container {
     display: grid;
-    grid-template-rows: 0.25fr 1fr 0.5fr;
-    height: 100vh;
+    grid-template-rows: 0fr 0fr 0fr;
 }
 .header-container {
     display: flex;
@@ -29,6 +28,9 @@ body{
     font-weight: 900;
     padding: 0.5%;
     padding-left: 10%;
+}
+.header-title:hover {
+    cursor: pointer;
 }
 .header-buttons-container {
     display: flex;
@@ -138,4 +140,48 @@ body{
     margin-bottom: -4.5%;
     font-size: 2.5rem;
 }
-
+.products-page-container {
+    background-color: var(--baby-yellow);
+    display: grid;
+    grid-template-columns: 0.25fr 1fr;
+    padding-left: 15%;
+}
+.categories-container {
+    display: flex;
+    flex-direction: column;
+}
+.categories-container > div {
+    font-size: 1.5rem;
+    padding: 2.5%;
+}
+.categories-container > div:hover {
+    cursor: pointer;
+}
+select {
+    border: none;
+    background-color: var(--baby-yellow);
+    font-size: 1.5rem;
+    margin-left: -2%;
+    padding: 2.5%;
+}
+select:hover {
+    cursor: pointer;
+}
+.product-card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 5%;
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 300px;
+    width: 250px;
+    margin: 5%;
+    margin-top: 10%;
+}
+.card-container > p:nth-child(3) {
+    margin-top: -5%;
+}
