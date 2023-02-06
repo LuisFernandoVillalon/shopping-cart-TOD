@@ -27,7 +27,7 @@ const productArrays = (FemaleProducts, MaleProducts, PerfumeProducts) => {
 
     
     
-    return {FemaleProducts, MaleProducts, PerfumeProducts};
+    return { FemaleProducts, MaleProducts, PerfumeProducts };
 }
 git
 export default productArrays;

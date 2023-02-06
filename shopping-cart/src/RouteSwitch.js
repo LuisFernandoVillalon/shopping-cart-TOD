@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header.js";
 import Footer from "./components/Footer.js";
-import Home from "./pages/Home.js";
-import Products from "./pages/Products.js";
+import Home from "./components/Home.js";
+import Products from "./components/Products.js";
 import productArrays from "./pages/Photos-Products/ProductArrays.js";
 
 const RouteSwitch = () => {
