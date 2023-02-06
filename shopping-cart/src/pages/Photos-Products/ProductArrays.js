@@ -25,6 +25,9 @@ import perfume4 from "./perfume/perfume-1.jpg";
 
 const productArrays = (FemaleProducts, MaleProducts, PerfumeProducts) => {
 
+    
+    
+    return {FemaleProducts, MaleProducts, PerfumeProducts};
 }
 
 export default productArrays;
