@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import ProductCards from "../product-data/ProductCards";
 import SelectedProduct from "../product-data/SelectedProduct";
 
-const Products = () => {
+const Products = (props) => {
     const [category, setCategory] = useState("All");
     const [selectedProduct, setSelectedProduct] = useState("");
-    const [productAmount, setProductAmount] = useState(0);
-    const [bagAmount, setBagAmount] = useState(0);
+    
+    const [bagBtnStatus, setBagBtnStatus] = useState(false);
 
     function handleChange(e) {
         setCategory(e.target.value);
@@ -32,17 +32,17 @@ const Products = () => {
             <div>
                 <SelectedProduct 
                     selectedProduct={selectedProduct}
-                    productAmount={productAmount} setProductAmount={setProductAmount}
-                    bagAmount={bagAmount} setBagAmount={setBagAmount}
+                    productAmount={props.productAmount} setProductAmount={props.setProductAmount}
+                    bagBtnStatus={bagBtnStatus} setBagBtnStatus={setBagBtnStatus}
                 />
             </div>
         </div>
         <div>
             <ProductCards
                 category={category}
-                selectedProduct={selectedProduct}
-                productAmount={productAmount} setProductAmount={setProductAmount}
-                setSelectedProduct={setSelectedProduct}
+                selectedProduct={selectedProduct} setSelectedProduct={setSelectedProduct}
+                productAmount={props.productAmount} setProductAmount={props.setProductAmount}
+                bagBtnStatus={bagBtnStatus} setBagBtnStatus={setBagBtnStatus}
             />
         </div>
     </div>

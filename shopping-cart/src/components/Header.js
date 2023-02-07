@@ -21,7 +21,6 @@ const Header = () => {
             <div className="header-buttons-container">
                 <div onClick={changeRouteToHome}>Home</div>
                 <div onClick={changeRouteToProducts}>Products</div>
-                <div>About</div>
                 <div>
                     <BagFill onClick={changeRouteToBag}/>  
                 </div>

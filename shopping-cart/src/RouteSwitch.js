@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import React, { useState } from "react";
 import Header from "./components/Header.js";
 import Footer from "./components/Footer.js";
 import Home from "./components/Home.js";
@@ -7,6 +8,8 @@ import Bag from "./components/Bag.js";
 
 const RouteSwitch = () => {
 
+  const [productAmount, setProductAmount] = useState(0);
+
 
   return (
     <div className="body-container">
@@ -14,8 +17,16 @@ const RouteSwitch = () => {
         <Header />
           <Routes className="route-container">
               <Route path="/" element={<Home />} />
-              <Route path="/products" element={<Products />} />
-              <Route path="/bag" element={<Bag />} />
+              <Route path="/products" element={
+                <Products
+                  productAmount={productAmount} setProductAmount={setProductAmount}
+                />
+              } />
+              <Route path="/bag" element={
+                <Bag 
+                  productAmount={productAmount} setProductAmount={setProductAmount}
+                />
+              } />
           </Routes>
         </BrowserRouter>
         <Footer />

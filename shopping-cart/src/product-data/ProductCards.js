@@ -6,6 +6,7 @@ import perfumeData from "./perfumeData.json";
 
 
 const ProductCards = (props) => {
+
     const category = props.category;
     
     const maleArray = [];
@@ -87,6 +88,8 @@ const ProductCards = (props) => {
             currentCard={currentCard}
             setSelectedProduct={props.setSelectedProduct}
             productAmount={props.productAmount} setProductAmount={props.setProductAmount}
+            setBagBtnStatus={props.setBagBtnStatus}
+            
         />
     ))
     return (
@@ -103,6 +106,7 @@ const IndividualProductCard = (props) => {
             <img className="product-img" onClick={() => {
                     props.setSelectedProduct(props.currentCard);
                     props.setProductAmount(props.currentCard.amount);
+                    props.setBagBtnStatus(true);
                 }
             }  src={props.currentCard.item_image} />
             <p>{props.currentCard.item_name}</p>

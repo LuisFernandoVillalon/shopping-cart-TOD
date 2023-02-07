@@ -3,7 +3,7 @@
 		"gender": "female",
 		"category": "earrings",
 		"item_name": "Diamond Earrings",
-		"item_price": "$4,500.00",
+		"item_price": "$500.00",
 		"item_description": "Blood diamond earrings perfect to wear at your next charity gala.",
 		"item_image": "https://images.pexels.com/photos/12680628/pexels-photo-12680628.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 		"amount": 0
@@ -12,7 +12,7 @@
 		"gender": "female",
 		"category": "earrings",
 		"item_name": "Emerald Earrings",
-		"item_price": "$3,500.00",
+		"item_price": "$300.00",
 		"item_description": "Emerald earrings which hold the power of the seven chaos emeralds",
 		"item_image": "https://images.pexels.com/photos/7258925/pexels-photo-7258925.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 		"amount": 0
@@ -21,7 +21,7 @@
 		"gender": "female",
 		"category": "earrings",
 		"item_name": "Rose Quartz Earrings",
-		"item_price": "$3,575.00",
+		"item_price": "$575.00",
 		"item_description": "Diamond in the color of pearl made by dwarves from Middle Earth.",
 		"item_image": "https://images.pexels.com/photos/12486665/pexels-photo-12486665.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 		"amount": 0
@@ -30,7 +30,7 @@
 		"gender": "female",
 		"category": "necklace",
 		"item_name": "Diamond Heart Necklace",
-		"item_price": "$6,500.00",
+		"item_price": "$650.00",
 		"item_description": "A diamond necklace encrusted with blood diamonds dating back to our founding fathers.",
 		"item_image": "https://images.pexels.com/photos/10983782/pexels-photo-10983782.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 		"amount": 0
@@ -39,7 +39,7 @@
 		"gender": "female",
 		"category": "necklace",
 		"item_name": "24 lbs Diamond Necklace",
-		"item_price": "$200,575.99",
+		"item_price": "$200.99",
 		"item_description": "A diamond necklace that looks small but weighs 24 pounds. Don't believe me? Buy it.",
 		"item_image": "https://images.pexels.com/photos/9332184/pexels-photo-9332184.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 		"amount": 0
@@ -48,7 +48,7 @@
 		"gender": "female",
 		"category": "necklace",
 		"item_name": "Sun Gold Chain",
-		"item_price": "$875.00",
+		"item_price": "$75.00",
 		"item_description": "A gold chain in the shape of a sun. (Holds the power of the sun inside it).",
 		"item_image": "https://images.pexels.com/photos/13325937/pexels-photo-13325937.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 		"amount": 0
@@ -57,7 +57,7 @@
         "gender": "female",
 		"category": "ring",
         "item_name": "Floral Ring",
-        "item_price": "$4,000.00",
+        "item_price": "$400.00",
         "item_description": "Did someone say double trouble? A ring with two flower shape diamonds.",
         "item_image": "https://images.pexels.com/photos/8398911/pexels-photo-8398911.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 		"amount": 0
@@ -66,7 +66,7 @@
         "gender": "female",
 		"category": "ring",
         "item_name": "Marvel Ring",
-        "item_price": "$8,618,463,538.75",
+        "item_price": "$538.75",
         "item_description": "Limited edition Marvel's Endgame ring inspired by the Reality and Space Gems.",
         "item_image": "https://images.pexels.com/photos/13907889/pexels-photo-13907889.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 		"amount": 0
@@ -75,7 +75,7 @@
         "gender": "female",
 		"category": "ring",
         "item_name": "Ruby Ring",
-        "item_price": "$5,000,000.00",
+        "item_price": "$5.00",
         "item_description": "A ring with a ruby I found in my backyard. I think it dates back to Queen Elizabeth the Third.",
         "item_image": "https://images.pexels.com/photos/6358514/pexels-photo-6358514.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 		"amount": 0
