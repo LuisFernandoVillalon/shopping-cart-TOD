@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.54519baf.css",
-    "main.js": "/static/js/main.f9e16a6c.js",
+    "main.js": "/static/js/main.8945dbed.js",
     "static/media/forbes.png": "/static/media/forbes.b40ea1d185fc4b004d89.png",
     "index.html": "/index.html",
     "main.54519baf.css.map": "/static/css/main.54519baf.css.map",
-    "main.f9e16a6c.js.map": "/static/js/main.f9e16a6c.js.map"
+    "main.8945dbed.js.map": "/static/js/main.8945dbed.js.map"
   },
   "entrypoints": [
     "static/css/main.54519baf.css",
-    "static/js/main.f9e16a6c.js"
+    "static/js/main.8945dbed.js"
   ]
 }
