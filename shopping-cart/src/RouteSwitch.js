@@ -13,7 +13,7 @@ const RouteSwitch = () => {
 
   return (
     <div className="body-container">
-        <BrowserRouter>
+        <BrowserRouter basename='/'>
         <Header />
           <Routes className="route-container">
               <Route path="/" element={<Home />} />
