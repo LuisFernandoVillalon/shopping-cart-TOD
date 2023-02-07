@@ -11,6 +11,9 @@ const Header = () => {
     const changeRouteToProducts = () => {
         navigate("/products");
     }
+    const changeRouteToBag = () => {
+        navigate("/bag");
+    }
     
     return (
         <div className="header-container">
@@ -19,7 +22,9 @@ const Header = () => {
                 <div onClick={changeRouteToHome}>Home</div>
                 <div onClick={changeRouteToProducts}>Products</div>
                 <div>About</div>
-                <div><BagFill /></div>
+                <div>
+                    <BagFill onClick={changeRouteToBag}/>  
+                </div>
             </div>
         </div>
     )

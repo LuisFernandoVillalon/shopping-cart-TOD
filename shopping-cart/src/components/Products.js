@@ -1,13 +1,16 @@
 import React, { useState } from "react";
 import ProductCards from "../product-data/ProductCards";
+import SelectedProduct from "../product-data/SelectedProduct";
 
 const Products = () => {
     const [category, setCategory] = useState("All");
+    const [selectedProduct, setSelectedProduct] = useState("");
+    const [productAmount, setProductAmount] = useState(0);
+    const [bagAmount, setBagAmount] = useState(0);
 
     function handleChange(e) {
         setCategory(e.target.value);
     }
-
    return (
     <div className="products-page-container">
         <div className="categories-container">
@@ -26,10 +29,20 @@ const Products = () => {
                <option value="femaleRings">Woman's Rings</option>
             </select>
             <div onClick={() => setCategory("Perfumes")}>Perfumes</div>
+            <div>
+                <SelectedProduct 
+                    selectedProduct={selectedProduct}
+                    productAmount={productAmount} setProductAmount={setProductAmount}
+                    bagAmount={bagAmount} setBagAmount={setBagAmount}
+                />
+            </div>
         </div>
         <div>
             <ProductCards
                 category={category}
+                selectedProduct={selectedProduct}
+                productAmount={productAmount} setProductAmount={setProductAmount}
+                setSelectedProduct={setSelectedProduct}
             />
         </div>
     </div>

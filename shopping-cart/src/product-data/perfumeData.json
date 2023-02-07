@@ -5,7 +5,8 @@
 		"item_name": "Queen of Seduction",
 		"item_price": "$2.00",
 		"item_description": "Smell like Cleopatra herself. Smell like a seductive queen. Okurrr. Period. Purrr.",
-		"item_image": "https://images.pexels.com/photos/3989394/pexels-photo-3989394.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		"item_image": "https://images.pexels.com/photos/3989394/pexels-photo-3989394.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+		"amount": 0
 	},
 	"1": {
 		"gender": "unisex",
@@ -13,15 +14,17 @@
 		"item_name": "Chanel",
 		"item_price": "$5.00",
 		"item_description": "Want to smell good? Well buy this!",
-		"item_image": "https://images.pexels.com/photos/11515541/pexels-photo-11515541.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		"item_image": "https://images.pexels.com/photos/11515541/pexels-photo-11515541.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+		"amount": 0
 	},
 	"2": {
 		"gender": "unisex",
 		"category": "perfume",
-		"item_name": "Goldeb Leather",
+		"item_name": "Golden Leather",
 		"item_price": "$3.00",
 		"item_description": "Smell like leather encrusted in gold. Yuuuummmm.",
-		"item_image": "https://images.pexels.com/photos/12456258/pexels-photo-12456258.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		"item_image": "https://images.pexels.com/photos/12456258/pexels-photo-12456258.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+		"amount": 0
 	},
 	"3": {
 		"gender": "unisex",
@@ -29,6 +32,7 @@
 		"item_name": "Lunar",
 		"item_price": "$85.00",
 		"item_description": "Smell like the moon.",
-		"item_image": "https://images.pexels.com/photos/6958875/pexels-photo-6958875.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		"item_image": "https://images.pexels.com/photos/6958875/pexels-photo-6958875.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+		"amount": 0
 	}
 }

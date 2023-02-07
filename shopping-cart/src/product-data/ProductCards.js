@@ -1,11 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import femaleData from "./femaleData.json";
 import uniqid from "uniqid";
 import maleData from "./maleData.json";
 import perfumeData from "./perfumeData.json";
 
 
-const ProductCards = (category) => {
+const ProductCards = (props) => {
+    const category = props.category;
     
     const maleArray = [];
     var maleObjLength = Object.keys(maleData).length;
@@ -50,31 +51,31 @@ const ProductCards = (category) => {
 
     const allArray = [...maleArray, ...femaleArray, ...perfumeArray];
     let chosenArray = [];
-    if (category.category === "All") {
+    if (category === "All") {
         chosenArray = allArray;
     }
 
-    if (category.category === "allMale") {
+    if (category === "allMale") {
         chosenArray = maleArray;
-    } else if (category.category === "maleHats") {
+    } else if (category === "maleHats") {
         chosenArray = maleHats;
-    } else if (category.category === "maleChains") {
+    } else if (category === "maleChains") {
         chosenArray = maleChains;
-    } else if (category.category === "maleWatches") {
+    } else if (category === "maleWatches") {
         chosenArray = maleWatches;
     }
 
-    if (category.category === "allFemale") {
+    if (category === "allFemale") {
         chosenArray = femaleArray;
-    } else if (category.category === "femaleEarrings") {
+    } else if (category === "femaleEarrings") {
         chosenArray = femaleEarrings;
-    } else if (category.category === "femaleNecklace") {
+    } else if (category === "femaleNecklace") {
         chosenArray = femaleNecklace;
-    } else if (category.category === "femaleRings") {
+    } else if (category === "femaleRings") {
         chosenArray = femaleRings;
     }
 
-    if (category.category === "Perfumes") {
+    if (category    === "Perfumes") {
         chosenArray = perfumeArray;
     }
 
@@ -84,6 +85,8 @@ const ProductCards = (category) => {
         <IndividualProductCard
              key={uniqid()}
             currentCard={currentCard}
+            setSelectedProduct={props.setSelectedProduct}
+            productAmount={props.productAmount} setProductAmount={props.setProductAmount}
         />
     ))
     return (
@@ -93,12 +96,17 @@ const ProductCards = (category) => {
     )
 }
 
-const IndividualProductCard = (product) => {
+const IndividualProductCard = (props) => {
+    console.log(props)
     return (
         <div className="card-container">
-            <img src={product.currentCard.item_image} />
-            <p>{product.currentCard.item_name}</p>
-            <p>{product.currentCard.item_price}</p>
+            <img className="product-img" onClick={() => {
+                    props.setSelectedProduct(props.currentCard);
+                    props.setProductAmount(props.currentCard.amount);
+                }
+            }  src={props.currentCard.item_image} />
+            <p>{props.currentCard.item_name}</p>
+            <p>{props.currentCard.item_price}</p>
         </div>
     )
 }
