@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/shopping-cart-tod/static/css/main.54519baf.css",
-    "main.js": "/shopping-cart-tod/static/js/main.4625d63a.js",
-    "static/media/forbes.png": "/shopping-cart-tod/static/media/forbes.b40ea1d185fc4b004d89.png",
-    "index.html": "/shopping-cart-tod/index.html",
-    "main.54519baf.css.map": "/shopping-cart-tod/static/css/main.54519baf.css.map",
-    "main.4625d63a.js.map": "/shopping-cart-tod/static/js/main.4625d63a.js.map"
+    "main.css": "/shopping-cart-TOD/static/css/main.54519baf.css",
+    "main.js": "/shopping-cart-TOD/static/js/main.50b25001.js",
+    "static/media/forbes.png": "/shopping-cart-TOD/static/media/forbes.b40ea1d185fc4b004d89.png",
+    "index.html": "/shopping-cart-TOD/index.html",
+    "main.54519baf.css.map": "/shopping-cart-TOD/static/css/main.54519baf.css.map",
+    "main.50b25001.js.map": "/shopping-cart-TOD/static/js/main.50b25001.js.map"
   },
   "entrypoints": [
     "static/css/main.54519baf.css",
-    "static/js/main.4625d63a.js"
+    "static/js/main.50b25001.js"
   ]
 }
