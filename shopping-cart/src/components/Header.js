@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 const Header = () => {
      const navigate = useNavigate();
     const changeRouteToHome = () => {
-        navigate("/");
+        navigate("/shopping-cart-top");
     }
     const changeRouteToProducts = () => {
         navigate("/products");

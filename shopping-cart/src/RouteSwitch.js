@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import React, { useState } from "react";
 import Header from "./components/Header.js";
 import Footer from "./components/Footer.js";
@@ -13,10 +13,10 @@ const RouteSwitch = () => {
 
   return (
     <div className="body-container">
-        <Router>
+        <BrowserRouter path="/shopping-cart-top" >
         <Header />
         <Routes className="route-container">
-            <Route path="/" element={<Home />} />
+            <Route path="/shopping-cart-top" element={<Home />} />
             <Route path="/products" element={
               <Products
                 productAmount={productAmount} setProductAmount={setProductAmount}
@@ -28,7 +28,7 @@ const RouteSwitch = () => {
               />
             } />
         </Routes>
-        </Router>
+        </BrowserRouter>
         <Footer />
     </div>
   );
