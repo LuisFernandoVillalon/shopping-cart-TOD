@@ -7,11 +7,11 @@ The user is then able to decide which products to add to their bag and the amoun
 
 # Screenshots
 ## Home Page
-![image](<img width="943" alt="image" src="https://user-images.githubusercontent.com/104875261/217618495-b4aebb14-0622-4544-b298-d1f24b19f2df.png">)
+(<img width="943" alt="image" src="https://user-images.githubusercontent.com/104875261/217618495-b4aebb14-0622-4544-b298-d1f24b19f2df.png">)
 ## Products page
-![image](![image](https://user-images.githubusercontent.com/104875261/217619089-105f723d-6023-4226-9995-818d29a24114.png))
+![image](https://user-images.githubusercontent.com/104875261/217619089-105f723d-6023-4226-9995-818d29a24114.png)
 ## Bag Page
-![image] (![image](https://user-images.githubusercontent.com/104875261/217618966-91adae80-cabc-4f54-905b-97a2bc06da43.png))
+![image](https://user-images.githubusercontent.com/104875261/217618966-91adae80-cabc-4f54-905b-97a2bc06da43.png)
 
 # Development
   ## Frameworks
